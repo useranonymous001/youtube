@@ -1,0 +1,34 @@
+.sidebar{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 65px;
+    background-color: white;
+    z-index: 101;
+}
+
+.image{
+    cursor: pointer;
+    transition: 0.5s;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.image:hover{
+    background-color: rgb(230, 229, 229);
+}
+.youtube-sidebar-buttons{
+    width: 20px;
+
+}
+.button-name{
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8.5px;
+    display: block;
+    font-weight: bold;
+}
